@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Botón</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://i.ibb.co/c6zkRdx/FondoOU.png');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .button-container {
+            position: absolute;
+            top: 58%; /* Ajusta este valor para mover el botón hacia arriba o abajo */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .button-container a {
+            text-decoration: none;
+            color: white;
+            background-color: #28a745;
+            padding: 15px 25px;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .button-container a:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="https://wa.me/59897682527" target="_blank">CREA TU USUARIO</a>
+    </div>
+</body>
+</html>
